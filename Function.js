@@ -1,3 +1,4 @@
+// 1. How do default parameters work in js function
 function total(price = 10, quantity) {
   return price * quantity;
 }
