@@ -42,7 +42,7 @@
 condition ? value1 : value2;
 
 
-// Example:
+// Example
 let age = 20;
 let result = age >= 18 ? "Adult" : "Child";
 
