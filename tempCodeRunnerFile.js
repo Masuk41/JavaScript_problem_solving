@@ -1,1 +1,1 @@
-console.log(Object.keys(user))
+address.city
