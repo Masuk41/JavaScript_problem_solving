@@ -9,11 +9,11 @@
 // }
 // }
 
-// //=> . is used to go inside an object; [] can also access a property, but each level needs its own [].
-// console.log(user.address)
-// console.log(user["address"] ["city"])
-// let entry =Object.entries(user);
-// console.log(entry[0][1])
+ //=> . is used to go inside an object; [] can also access a property, but each level needs its own [].
+ console.log(user.address)
+ console.log(user["address"] ["city"])
+ let entry =Object.entries(user);
+ console.log(entry[0][1])
 
 
 2.
