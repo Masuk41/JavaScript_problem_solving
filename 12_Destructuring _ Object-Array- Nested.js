@@ -1,29 +1,31 @@
-// // Destructuring means taking values out of an object or array and putting them into variables.
+// Destructuring means taking values out of an object or array and putting them into variables.
 
-// // 1.Nested object destructuring
+// Destructuring "=" → take values out.
 
-// const student = {
-//   name: "Fahim Abdulla",
-//   age: 29,
-//   address: {
-//     city: "Dhaka",
-//     zip: 1212,
-//   },
-// };
+// 1.Nested object destructuring
 
-// const {
-//   name,
-//   address: { city, zip },
-// } = student;
+const student = {
+  name: "Fahim Abdulla",
+  age: 29,
+  address: {
+    city: "Dhaka",
+    zip: 1212,
+  },
+};
 
-// console.log(student);
+const {
+  name,
+  address: { city, zip },
+} = student;
 
-// // 2. Array destructuring
-// const arr = ["Red", "Green", "Black"];
+console.log(student);
 
-// const [, , third] = arr;
-// console.log(third);
-// console.log(arr);
+// 2. Array destructuring
+const arr = ["Red", "Green", "Black"];
+
+const [, , third] = arr;
+console.log(third);
+console.log(arr);
 
 
 // 3.Nested object + array destructuring
