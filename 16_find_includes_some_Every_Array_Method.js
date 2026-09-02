@@ -1,5 +1,13 @@
 // find(), includes(), some(), and every().
 
+// forEach() → DO something
+// map()     → TRANSFORM every item
+// filter()  → SELECT multiple items
+// find()    → FIND first matching item
+// includes()→ CHECK if value exists
+// some()    → CHECK if at least one matches
+// every()   → CHECK if all match
+// reduce()  → COMBINE into one value
 
 // 1.find() — find the first matching item
 let students = [
