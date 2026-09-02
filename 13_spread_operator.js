@@ -1,7 +1,7 @@
-// Spread Operator - three Dot(...) 
+// Spread Operator - three Dot(...)= unpack values
 // Spread ... → spread/copy values into a new array/object.
-//1.newArr = [...oldArr]
-// 2.newObj = {...oldObj}
+// | `...` Spread | Expand/copy values                  | `[...arr]`                    |
+// | `...` Spread | Copy/merge objects                  | `{...obj}`                    |
 
 let cart = ["fruits", "rice"];
 //we can use= cart.push("egg");
@@ -26,4 +26,4 @@ const fullProfile = {
   zip: "6000",
 };
 
-console.log(fullProfile);
+// console.log(fullProfile);
