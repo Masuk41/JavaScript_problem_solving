@@ -46,5 +46,4 @@ const [, , , ...rest] = arr;
 function something(one, ...remaining) {
   console.log(one, remaining);
 }
-
 console.log(something("first", 1, 2, 3, 4, 5, 6, 7));
